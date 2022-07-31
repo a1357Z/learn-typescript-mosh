@@ -33,4 +33,13 @@ function kgToLbs(weight) {
         return weight.length;
     }
 }
+let weight;
+let menu = {
+    drag: () => {
+        console.log("drage");
+    }, resize(item) {
+        console.log(item);
+    },
+};
+let quantity = 50;
 //# sourceMappingURL=index.js.map
